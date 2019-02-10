@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                                             xmlns:app="http://schemas.android.com/apk/res-auto"
+                                             xmlns:tools="http://schemas.android.com/tools"
+                                             android:layout_width="match_parent"
+                                             android:layout_height="110dp"
+                                             android:background="@drawable/clear_night_bg">
+
+    <TextView
+            android:text="Neutral Bay"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/locationNameTxtView"
+            app:layout_constraintStart_toStartOf="parent"
+            android:layout_marginStart="16dp" android:textColor="@android:color/white"
+            android:layout_marginBottom="16dp"
+            app:layout_constraintBottom_toBottomOf="parent" android:textSize="24sp" android:fontFamily="@font/roboto"/>
+    <TextView
+            android:text="19°"
+            android:layout_width="wrap_content"
+            android:layout_height="46dp"
+            android:id="@+id/locationDegreeTextView"
+            app:layout_constraintEnd_toEndOf="parent"
+            android:layout_marginEnd="16dp"
+            android:textSize="40sp"
+            app:layout_constraintBottom_toBottomOf="@+id/locationNameTxtView" android:textColor="@android:color/white"
+            android:fontFamily="@font/roboto_light"/>
+</android.support.constraint.ConstraintLayout>
