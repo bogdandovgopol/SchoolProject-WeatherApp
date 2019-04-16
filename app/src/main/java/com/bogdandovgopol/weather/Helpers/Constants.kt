@@ -7,7 +7,7 @@ object Constants {
 
     //darksky api
     val DARK_SKY_BASE_URL: String = "https://api.darksky.net/forecast"
-    val DARK_SKY_KEY: String = "d8c0ab55e9fa03712d776fef7cbcef3d"
+    val DARK_SKY_KEY: String = "<YOUR DARSKY API KEY>"
 
     //intent parameters
     val LATITUDE = "LATITUDE"
