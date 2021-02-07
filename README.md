@@ -2,7 +2,7 @@
 
 # WeatherApp
 
-An iOS application that forecasts the weather via DarkSky API. You can save multiple locations using CoreData.
+An Android application that forecasts the weather via DarkSky API. You can save multiple locations using Relm.
 
 
 # What I Learned
