@@ -13,9 +13,3 @@ An Android application that forecasts the weather via DarkSky API. You can save 
 * Work with API's (google geocache & darksky API) 
 * Parse JSON data
 * Realm
-
-## Contact Info:
-- Email: bogdan@dovgopol.dev
-- Web: [dovgopol.dev](https://dovgopol.dev)
-
-# Thanks for stopping by!
